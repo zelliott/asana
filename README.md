@@ -12,7 +12,7 @@ Given these two points, my implementation of `layoutFrames` works as follows:
 
 1. Begin by building the first row of images.
 
-2. Scale the first image up to its maximum height (given the `maxRowHeight` constraint) and add it to the first row.
+2. Scale the image up to its maximum height (given the `maxRowHeight` constraint) and add it to the first row.
 
 3. If there is horizontal space on this row for another image, repeat step 2 with the next image.
 
@@ -43,4 +43,4 @@ However, given the small scope of the challenge, I ended up placing all SCSS fil
 
 ### Part 3:
 
-I abstracted out picture adding into its own method, `fillImages`, so that you could quickly change images sources without having to re-run `layoutFrames` or completely create a new `Gallery`.  Why Bears, Bill Murrays and Nick Cages?  They were the only placeholder images that had the same URL pattern.
+I abstracted out picture adding into its own method, `fillImages`, so that you could quickly change images sources without having to re-run `layoutFrames` or completely create a new `Gallery`.  Why Bears, Bill Murrays and Nick Cages?  They were the only placeholder images that had the same URL pattern!
