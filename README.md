@@ -22,7 +22,7 @@ Given these two points, my implementation of `layoutFrames` works as follows:
 
 6. Repeat with the next row (until we have added all images).
 
-Additionally, I decided to follow test driven development because it is nearly impossible to visually tell that the algorithm is working correctly.  There are too many small discrepancies/corner cases that might arise.
+Additionally, I decided to follow **test driven development** because it is nearly impossible to visually tell that the algorithm is working correctly.  There are too many small discrepancies/corner cases that might arise.
 
 ### Part 2:
 I used SCSS for this project because, in my opinion, nesting makes CSS more readable and mixins/variables/extends are indispensable.  I usually organize my CSS as follows:
