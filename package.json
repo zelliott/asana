@@ -1,0 +1,12 @@
+{
+  "name": "asana_challenge",
+  "author": "Zack Elliott",
+  "scripts": {
+    "test": "mocha scripts/tests.js"
+  },
+  "dependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1",
+    "require": "^2.4.17"
+  }
+}

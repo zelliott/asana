@@ -1,0 +1,47 @@
+body {
+  background: $backgroundColor;
+  margin: 0;
+
+  #header-container {
+    background: $headerColor;
+    @include box-shadow(0px, 0px, 3px, rgba(0, 0, 0, 0.2));
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    #header {
+      header: $headerHeight;
+      margin: 0 auto;
+
+      > div {
+        display: inline-block;
+        line-height: $headerHeight;
+      }
+
+      #logo {
+        background: #333;
+        color: #fff;
+        font-weight: 600;
+        font-style: italic;
+        padding: 0 20px;
+        margin-right: 20px;
+      }
+
+      .tab {
+        cursor: pointer;
+        padding: 0 10px;
+        margin: 0 10px;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+
+      .tab-on {
+        border-bottom: 2px solid $blue;
+        color: $blue;
+        line-height: $headerHeight - 4px;
+      }
+    }
+  }
+}
