@@ -17,13 +17,13 @@ Given these two points, my implementation of `layoutFrames` works as follows:
 ### Part 2:
 I used SCSS for this project because, in my opinion, nesting makes CSS more readable and mixins/variables/extends are indispensable.  I usually organize my CSS as follows:
 
-base\ (layouting, typography)
-components\ (shared components such as controls, inputs, buttons, menus, etc)
-modules\ (variables, mixins, helper classes, functions)
-vendors\
-views\ (one scss partial per view) 
-screen.scss
-print.scss
+`base\` (layouting, typography)
+`components\` (shared components such as controls, inputs, buttons, menus, etc)
+`modules\` (variables, mixins, helper classes, functions)
+`vendors\`
+`views\` (one scss partial per view) 
+`screen.scss`
+`print.scss`
 
 However, given the small scope of the challenge, I ended up placing all SCSS files in the same `sass` folder.
 
